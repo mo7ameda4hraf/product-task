@@ -31,7 +31,7 @@ export default function Rating() {
                 </div>
 
                 {/* rating */}
-                <div className="w-100 space-y-2">
+                <div className="w-100 line-rating space-y-2">
                     {ratings.map((rate) => (
                         <div key={rate.stars} className="flex items-center gap-2">
 

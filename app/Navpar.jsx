@@ -15,6 +15,7 @@ import AboutIcon from "./image/icons/Vector.svg"
 import HomeIcon from "./image/icons/home 04.svg"
 import CategoryIcon from "./image/icons/apps.svg"
 import MenuIcon from '@mui/icons-material/Menu';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 export default function Navpar() {
@@ -37,6 +38,18 @@ export default function Navpar() {
                 <div className="container flex justify-between items-center pt-2.5 pb-2.5">
                     <MenuIcon className="menu-icon" onClick={handleShowSidepar} />
                     <div className="flex gap-5 icons">
+                        <div className="relative group">
+                            <div className="flex items-center  cursor-pointer">
+                                <KeyboardArrowDownIcon/>
+                                <Image src={User} alt="" />
+                            {/* Dropdown */}
+                            <div className="absolute -right-3 top-2.5 mt-2 hidden group-hover:block bg-white border rounded shadow w-32">
+                                <p className="px-3 py-2 hover:bg-gray-100 cursor-pointer">Profile</p>
+                                <p className="px-3 py-2 hover:bg-gray-100 cursor-pointer">Logout</p>
+                            </div>
+                        </div>
+                    </div>
+
                         
                         <select name="language" id="" style={{direction:"ltr"}}>
                             <option value="">EN</option>

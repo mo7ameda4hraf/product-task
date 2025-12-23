@@ -239,26 +239,90 @@ select{
       display: none !important;
     }
   }
+  .container-image,.container-select{
+    width: 100% !important;
+  }
+  .container-image{
+    .dots{
+      width: 70px !important;
+    }
+  }
+  .title{
+    background-image: url("./image/Frame\ 1000005589\ \(1\).png");
+    .tit-desktop{
+      display: none !important;
+    }
+    .tit-response{
+      display: block !important;
+    }
+  }
+  .breadcrumb{
+    a{
+      font-size: 12px !important;
+    }
+  }
+  .add-card{
+    width: 100% !important;
+    justify-content: center;
+  }
   .rating{
       flex-direction: column-reverse !important;
       gap: 30px;
       justify-content: center !important;
       align-items: center !important;
+      .review-list{
+        p{
+          font-size: 12px !important;
+          color: rgba(84, 84, 84, 1);
+        }
+      }
       .total-review{
         display: none;
       }
+      .line-rating{
+        width: 98% !important;
+      }
   }
   .product{
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 30px;
     .product-details{
       width: 100% !important;
+      .color{
+        div{
+          label{
+            width: 44px !important;
+            height: 44px !important;
+            span{
+              width: 22px !important;
+              height: 22px !important;
+            }
+          }
+        }
+      }
     }
   }
-  .slider-products{
-    width: 90% !important;
-    padding-top: 0 !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+
+  .footer{
+    background-image: url("./image/Frame\ 1000005591.png");
+    background-size: cover;
+    .container{
+      justify-content: space-evenly !important;
+      gap: 40px;
+    }
+    .email,.text{
+      width: 100% !important;
+    }
+  }
+}
+
+@media (min-width:800px) and (max-width:1000px){
+  .product{
+     .container-image{
+      width: 300px !important;
+      .dots{
+        width: 70px !important;
+      }
+     }
   }
 }

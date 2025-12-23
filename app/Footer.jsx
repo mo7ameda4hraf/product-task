@@ -13,7 +13,7 @@ export default function Footer() {
     return (
         <div className="footer text-white">
             <div className="container flex-wrap flex justify-between" style={{direction:"ltr"}}>
-                <div>
+                <div className='text'>
                     <Image src={Logo} alt="" />
                     <p className='text-[14px] font-medium w-81 pt-8'>Ipsam in eos qui consequatur ab cum maxime.Soluta dolor quae Ipsam in eos qui consequatur ab .Soluta dolor quae Ipsam in eos quconsequatur ab cum maxime.Soluta dolor quae     </p>
                 </div>

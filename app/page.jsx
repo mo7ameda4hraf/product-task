@@ -15,8 +15,8 @@ export default function Home() {
       <Navpar/>
       {/* Title */}
       <div className="title">
-        <h1 className="text-[32px] font-semibold">Product Details</h1>
-        <h1 className="hidden text-[32px] font-semibold">T-Shirt</h1>
+        <h1 className="tit-desktop text-[32px]  font-semibold">Product Details</h1>
+        <h1 className="tit-response hidden  text-[32px] font-semibold">T-Shirt</h1>
       </div>
       {/* BreadCrumb */}
       <div className="flex breadcrumb container justify-end">

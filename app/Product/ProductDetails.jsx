@@ -83,7 +83,7 @@ export default function ProductDetails() {
             <p className="text-[14px] pb-3" style={{borderBottom:"1px solid rgba(230, 230, 230, 1)"}}>Lorem ipsum dolor sit , consectetuer adipiscing elit, sed diam nonummy <br /> Lorem ipsum dolor sit amet, diam nonummy</p>
             
 
-            <div className="w-65 mt-8">
+            <div className="w-65 container-select mt-8">
                 <div className="relative">
                     <label className="-top-2.5 px-1 left-5 absolute bg-white text-[12px] mb-1">
                     Type
@@ -109,7 +109,7 @@ export default function ProductDetails() {
                     <KeyboardArrowDownIcon className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 "/>
                 </div>
             </div>
-            <div className="w-65 mt-5">
+            <div className="w-65 container-select mt-5">
                 <div className="relative">
                     <label className="-top-2.5 px-1 left-5 absolute bg-white text-[12px] mb-1">
                     Size
@@ -166,7 +166,7 @@ export default function ProductDetails() {
             </div>
             <h3 className="mt-4 text-[20px] font-medium">Quantity <span className="text-[16px] font-normal" style={{color:"rgba(138, 138, 138, 1)"}}>($300.00 for Piece)</span></h3>
         
-            <div className="flex justify-between mt-[20px]">
+            <div className="flex justify-between flex-wrap gap-5 mt-[20px]">
                 <div className="flex gap-4 items-center">
                     <div className="counter">
                         <button onClick={decrease}>-</button>
