@@ -283,6 +283,10 @@ select{
         width: 98% !important;
       }
   }
+  .slider-products{
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
   .product{
     flex-direction: column-reverse;
     gap: 30px;
